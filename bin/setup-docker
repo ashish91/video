@@ -35,4 +35,4 @@ sudo docker build -t app .
 sudo docker volume create app-storage
 
 
-# sudo docker run --rm -it -v app-storage:/rails/storage -p 3000:3000 --env RAILS_MASTER_KEY=8e6dc7cf2e25a3aeadb846dbd8ed3c50 app
+sudo docker run --rm -it -v app-storage:/rails/storage -p 3000:3000 --env RAILS_MASTER_KEY=e1d91c3501185eea1bad3c069982d32c app
